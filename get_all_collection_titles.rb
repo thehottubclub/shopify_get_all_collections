@@ -36,7 +36,7 @@ def main
 end
 
 def wfilename
-  "all_collection_titles_#{Time.now.strftime("%Y-%m-%d_%k%M%S")}.json"
+  "data/all_collection_titles_#{Time.now.strftime("%Y-%m-%d_%k%M%S")}.json"
 end
 
 def rfilename
